@@ -1,34 +1,34 @@
- {% load static %}
+{% load static %}
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="{% static 'estilo_base.css'%}">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="{% static 'estilo_base.css' %}">
+    {% block estilos_adicionais %}{% endblock %}
+
 </head>
 <body>
     <nav>
         <a href="#" id="log">DevWorld</a>
-        <a href="#">Quem  Somos</a>
+        <a href="#">Quem Somos</a>
         <a href="#">Cursos</a>
         <a href="#">Atividades</a>
-        <a href="#">indicação</a>
-        <a href="#" class=" butao">Cadastrar</a>
-        <a href="#" class="butao">  Login  </a>
+        <a href="#">Indicação</a>
+        <a href="#" class="butao">Cadastrar</a>
+        <a href="#" class="butao">Login</a>
     </nav>
 
     {% block conteudo %}
-    
-    
     {% endblock conteudo %}
 
     <footer>
-      
-        <a href="#">Fatec</a>
+        <a href="#"><img src="{% static 'imagens/Address (1).png' %}" alt="Fatec Logo"> Fatec</a>
         <a href="#">DevWorld</a>
-        
+
+        <a href="#"><img src="{% static 'imagens/GitHub (1).png' %}" alt=""></a>
+        <a href="#"> <img src="{% static 'imagens/LinkedIn (1).png' %}" alt=""></a>
     </footer>
     
 </body>
