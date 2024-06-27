@@ -1,0 +1,54 @@
+* { margin: 0px; padding: 0px;}
+nav {
+   padding: 40px 15px 40px 15px;
+   
+   box-shadow: 0px 0px 4px rgb(0, 0, 0.192);
+   background-color: #C3E9E6;
+}
+
+nav > a { 
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration:0.3s ;
+ }
+
+ nav > a#log { 
+    margin-right: 48%;
+ }
+
+ nav > a.butao { 
+    border-radius: 10px;
+    background-color: #66C1E1;
+    color: white;
+    margin-right: 20px;
+    
+ }
+
+ nav > a:hover{ 
+   color:#2a6b83 ;
+   text-decoration: underline;
+ }
+ 
+ footer { 
+   padding: 15px ;
+   
+   box-shadow: 0px 0px 4px rgb(0, 0, 0.192);
+   background-color: #C3E9E6;
+
+ }
+
+ footer > a { 
+   color: black;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration:0.3s ;
+
+ }
+
+ footer > a:hover{ 
+   color:#2a6b83 ;
+   text-decoration: underline;
+ }

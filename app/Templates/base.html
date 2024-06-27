@@ -1,0 +1,35 @@
+ {% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'estilo_base.css'%}">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <nav>
+        <a href="#" id="log">DevWorld</a>
+        <a href="#">Quem  Somos</a>
+        <a href="#">Cursos</a>
+        <a href="#">Atividades</a>
+        <a href="#">indicação</a>
+        <a href="#" class=" butao">Cadastrar</a>
+        <a href="#" class="butao">  Login  </a>
+    </nav>
+
+    {% block conteudo %}
+    
+    
+    {% endblock conteudo %}
+
+    <footer>
+      
+        <a href="#">Fatec</a>
+        <a href="#">DevWorld</a>
+        
+    </footer>
+    
+</body>
+</html>
