@@ -15,5 +15,21 @@
 
 #carrossel{
     padding: 15px;
-    margin: 10px 45px 10px 45px ;
+    margin: 10px 45px 10px 45px 
+}
+
+#video {
+    position: relative;
+    top: -760px; 
+    left: 308px; 
+    transform: translateX(-50%); 
+    
+
+}
+
+#img{
+    display: grid;
+    place-items: center; /* Centraliza horizontalmente e verticalmente */
+    height: 100vh; /* Altura total da viewport */
+    margin-bottom:20% ; /* Remove margens padrão do body */
 }
